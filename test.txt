@@ -1,0 +1,25 @@
+Launching pytest with arguments /Users/bentunney/Desktop/a4/test/test_assignments.py --no-header --no-summary -q in /Users/bentunney/Desktop/a4/test
+
+##teamcity[enteredTheMatrix timestamp='2022-11-08T15:39:56.212']
+============================= test session starts ==============================
+collecting ... collected 5 items
+##teamcity[testCount timestamp='2022-11-08T15:39:58.363' count='5']
+
+test_assignments.py::test_overallocation ##teamcity[testSuiteStarted timestamp='2022-11-08T15:39:58.365' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments' name='test_assignments' nodeId='1' parentNodeId='0']
+##teamcity[testStarted timestamp='2022-11-08T15:39:58.365' captureStandardOutput='false' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_overallocation' metainfo='test_overallocation' name='test_overallocation' nodeId='2' parentNodeId='1']
+PASSED                          [ 20%]##teamcity[testFinished timestamp='2022-11-08T15:39:58.377' duration='2' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_overallocation' name='test_overallocation' nodeId='2' parentNodeId='1']
+
+test_assignments.py::test_undersupport ##teamcity[testStarted timestamp='2022-11-08T15:39:58.377' captureStandardOutput='false' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_undersupport' metainfo='test_undersupport' name='test_undersupport' nodeId='3' parentNodeId='1']
+PASSED                            [ 40%]##teamcity[testFinished timestamp='2022-11-08T15:39:58.386' duration='0' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_undersupport' name='test_undersupport' nodeId='3' parentNodeId='1']
+
+test_assignments.py::test_conflicts ##teamcity[testStarted timestamp='2022-11-08T15:39:58.387' captureStandardOutput='false' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_conflicts' metainfo='test_conflicts' name='test_conflicts' nodeId='4' parentNodeId='1']
+PASSED                               [ 60%]##teamcity[testFinished timestamp='2022-11-08T15:39:58.396' duration='1' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_conflicts' name='test_conflicts' nodeId='4' parentNodeId='1']
+
+test_assignments.py::test_unpreferred ##teamcity[testStarted timestamp='2022-11-08T15:39:58.397' captureStandardOutput='false' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_unpreferred' metainfo='test_unpreferred' name='test_unpreferred' nodeId='5' parentNodeId='1']
+PASSED                             [ 80%]##teamcity[testFinished timestamp='2022-11-08T15:39:58.415' duration='10' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_unpreferred' name='test_unpreferred' nodeId='5' parentNodeId='1']
+
+test_assignments.py::test_unwilling ##teamcity[testStarted timestamp='2022-11-08T15:39:58.417' captureStandardOutput='false' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_unwilling' metainfo='test_unwilling' name='test_unwilling' nodeId='6' parentNodeId='1']
+PASSED                               [100%]##teamcity[testFinished timestamp='2022-11-08T15:39:58.434' duration='8' locationHint='python</Users/bentunney/Desktop/a4/test>://test_assignments.test_unwilling' name='test_unwilling' nodeId='6' parentNodeId='1']
+
+
+============================== 5 passed in 2.21s ===============================
